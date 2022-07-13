@@ -1,4 +1,4 @@
-
+#brief bifurcation calculator
 def main(inputs):
     global inv
     global endv
