@@ -163,9 +163,9 @@ def main(inputs):
     return {
         "Image_1": plot1,   # primary attractor
         "Image_2": plot2,   # secondary attractor
-        "Image_3": plot3,   # chart 1 
-        "Image_4": plot4,   # chart 2
-        "Image_5": plot5,    # subsec attractor
-        "Image_8": plot8,   # three persepectives
+        "Image_3": plot3,   # chart 1, chaotic change visualization w respect to time
+        "Image_4": plot4,   # chart 2, chaotic change visualization w respect to time
+        "Image_5": plot5,   # subsec attractor
+        "Image_8": plot8,   # three axes
     }
  
