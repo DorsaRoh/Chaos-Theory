@@ -1,5 +1,4 @@
- # ---------------------------------------------------------------------
-    # THREE ATTRACTOR AXES PERSPECTIVES
+
  
     t = inputs['t']
     tf = inputs['tf']
