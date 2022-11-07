@@ -9,6 +9,6 @@ Additionally computes a Logistic Map using an inputted value for the r axis. Bif
 <p align="center">
 <img width="800px" src="https://github.com/DorsaRoh/Chaos-Theory/blob/main/default3DComputations/LorenzAttractors.jpg">
 <img width="850px" src="https://github.com/DorsaRoh/Chaos-Theory/blob/main/default3DComputations/XYZPlanes.png">
-<img width="800px" src="https://github.com/DorsaRoh/Chaos-Theory/blob/main/default3DComputations/LogisticMap.png">
+<img width="600px" src="https://github.com/DorsaRoh/Chaos-Theory/blob/main/default3DComputations/LogisticMap.png">
 </p>
 
