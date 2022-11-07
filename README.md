@@ -10,12 +10,16 @@ Additionally computes a Logistic Map using an inputted value for the r axis. Bif
 
 <div class="row">
   <div class="column">
-    <img src="https://github.com/DorsaRoh/Chaos-Theory/blob/main/default3DComputations/LorenzAttractors.jpg" alt="Snow" style="width:80%">
+    <img src="https://github.com/DorsaRoh/Chaos-Theory/blob/main/default3DComputations/LorenzAttractors.jpg" alt="Lorenz Attractors" style="width:70%">
   </div>
   <div class="column">
-    <img src="src="https://github.com/DorsaRoh/Chaos-Theory/blob/main/default3DComputations/xyzLorenzAttractors.png" alt="Forest" style="width:100%">
+    <img src="src="https://github.com/DorsaRoh/Chaos-Theory/blob/main/default3DComputations/xyzLorenzAttractors.png" alt="Data Analysis" style="width:90%">
   </div>
   <div class="column">
     <img src="https://github.com/DorsaRoh/Chaos-Theory/blob/main/default3DComputations/XYZPlanes.png" alt="Mountains" style="width:100%">
   </div>
+  <div class="column">
+    <img src="https://github.com/DorsaRoh/Chaos-Theory/blob/main/default3DComputations/LogisticMap.png" alt="Logistic Map" style="width:80%">
+  </div>
+                                                                                                                                        
 </div>
