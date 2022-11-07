@@ -4,5 +4,5 @@ Currently computes and graphs a Lorenz Attractor using the sigma, beta, Rho and 
 Additionally computes a Logistic Map using an inputted value for the r axis. Bifurcation can be controlled by the number of iterations.
 
 
-<img width="250px" src="[LogisticMap](https://github.com/DorsaRoh/Chaos-Theory/blob/main/default3DComputations/LogisticMap.png)">
+<img width="250px" src="https://github.com/DorsaRoh/Chaos-Theory/blob/main/default3DComputations/LogisticMap.png">
 
