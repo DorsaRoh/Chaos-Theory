@@ -6,6 +6,7 @@ Currently computes and graphs a Lorenz Attractor using the sigma, beta, Rho and 
 Additionally computes a Logistic Map using an inputted value for the r axis. Bifurcation can be controlled by the number of iterations.
 </p>
 
+<p align="center">
 <div class="row">
   <div class="column">
     <img src="https://github.com/DorsaRoh/Chaos-Theory/blob/main/default3DComputations/LorenzAttractors.jpg" alt="Lorenz Attractors" style="width:70%">
@@ -20,3 +21,4 @@ Additionally computes a Logistic Map using an inputted value for the r axis. Bif
     <img src="https://github.com/DorsaRoh/Chaos-Theory/blob/main/default3DComputations/LogisticMap.png" alt="Logistic Map" style="width:80%">
   </div>                                                                                                                                     
 </div>
+</p>
