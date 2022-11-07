@@ -1,4 +1,4 @@
-# Chaos-Theory
+# 3D Chaos Theory
 
 
 The computation of 3D chaotic dynamical systems.
