@@ -4,5 +4,5 @@ Currently computes and graphs a Lorenz Attractor using the sigma, beta, Rho and 
 Additionally computes a Logistic Map using an inputted value for the r axis. Bifurcation can be controlled by the number of iterations.
 
 
-<img width="250px" src="https://github.com/theqoobee/rpcengine/blob/master/icons/therpcimage.png?raw=true#thumbnail">
+<img width="250px" src="//">
 
