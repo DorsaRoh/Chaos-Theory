@@ -7,6 +7,12 @@ Additionally computes a Logistic Map using an inputted value for the r axis. Bif
 </p>
 
 <p align="center">
+<img width="600px" src="https://github.com/DorsaRoh/Chaos-Theory/blob/main/default3DComputations/LorenzAttractor.png">
+<img width="600px" src="https://github.com/DorsaRoh/Chaos-Theory/blob/main/default3DComputations/xyzLorenzAttractors.png">
+<img width="600px" src="https://github.com/DorsaRoh/Chaos-Theory/blob/main/default3DComputations/XYZPlanes.png">
+<img width="600px" src="https://github.com/DorsaRoh/Chaos-Theory/blob/main/default3DComputations/LogisticMap.png">
+</p>
+<p align="center">
 <div class="row">
   <div class="column">
     <img src="https://github.com/DorsaRoh/Chaos-Theory/blob/main/default3DComputations/LorenzAttractors.jpg" style="width:70%">
