@@ -9,11 +9,6 @@
 <img width="600px" src="assets\LogisticMap.png">
 </p>
 
-## Features:
-- Computes and graphs Lorenz Attractors using values sigma, beta, Rho and time inputted by the user. 
-- Trajectory curve graphs, XY, YZ and XZ axis matplotlib graph visuals.
-- Logistic Map using an inputted value for the r axis. Bifurcation can be controlled by the number of iterations given by the user.
-
 ## Installation
 
 ### 1. Clone the repository
@@ -26,3 +21,9 @@ git clone https://github.com/DorsaRoh/https://github.com/DorsaRoh/3D-Chaos-Theor
 ```shell
 pip install -r requirements.txt
 ```
+
+## Features:
+- Computes and graphs Lorenz Attractors using values sigma, beta, Rho and time inputted by the user. 
+- Trajectory curve graphs, XY, YZ and XZ axis matplotlib graph visuals.
+- Logistic Map using an inputted value for the r axis. Bifurcation can be controlled by the number of iterations given by the user.
+
