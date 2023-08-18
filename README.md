@@ -9,12 +9,6 @@
 - Trajectory curve graphs, XY, YZ and XZ axis matplotlib graph visuals.
 - Logistic Map using an inputted value for the r axis. Bifurcation can be controlled by the number of iterations given by the user.
 
-<p align="center">
-<img width="800px" src="assets\LorenzAttractor.png">
-<img width="850px" src="assets\XYZPlanes.png">
-<img width="600px" src="assets\LogisticMap.png">
-</p>
-
 ## Installation
 
 ### 1. Clone the repository
@@ -27,3 +21,9 @@ git clone https://github.com/DorsaRoh/https://github.com/DorsaRoh/3D-Chaos-Theor
 ```shell
 pip install -r requirements.txt
 ```
+
+<p align="center">
+<img width="800px" src="assets\LorenzAttractor.png">
+<img width="850px" src="assets\XYZPlanes.png">
+<img width="600px" src="assets\LogisticMap.png">
+</p>
