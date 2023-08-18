@@ -3,6 +3,12 @@
 
 ### The computation of 3D chaotic dynamical systems.
 
+
+## Features:
+- Computes and graphs Lorenz Attractors using values sigma, beta, Rho and time inputted by the user. 
+- Trajectory curve graphs, XY, YZ and XZ axis matplotlib graph visuals.
+- Logistic Map using an inputted value for the r axis. Bifurcation can be controlled by the number of iterations given by the user.
+
 <p align="center">
 <img width="800px" src="assets\LorenzAttractor.png">
 <img width="850px" src="assets\XYZPlanes.png">
@@ -21,9 +27,3 @@ git clone https://github.com/DorsaRoh/https://github.com/DorsaRoh/3D-Chaos-Theor
 ```shell
 pip install -r requirements.txt
 ```
-
-## Features:
-- Computes and graphs Lorenz Attractors using values sigma, beta, Rho and time inputted by the user. 
-- Trajectory curve graphs, XY, YZ and XZ axis matplotlib graph visuals.
-- Logistic Map using an inputted value for the r axis. Bifurcation can be controlled by the number of iterations given by the user.
-
