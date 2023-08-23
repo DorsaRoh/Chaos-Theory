@@ -3,6 +3,8 @@
 
 ### Graphs and computes systems in Chaos Theory; Lorenz Attractors & Logistic Maps.
 
+Visualize chaos with your own chosen parameters.
+
 
 <p align="center">
 
