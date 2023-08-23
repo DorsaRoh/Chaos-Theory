@@ -5,6 +5,7 @@
 
 
 <p align="center">
+
 [3D Lorenz Attractor](https://github.com/DorsaRoh/Chaos-Theory/blob/main/3D_lorenzattractor.py)
 
 <img width="800px" src="assets\3d_lorenz.png">
