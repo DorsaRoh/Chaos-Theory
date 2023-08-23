@@ -54,7 +54,7 @@ def main(inputs):
 
     # X vs Z plot
     ax4 = fig.add_subplot(2, 2, 4)
-    ax4.plot(xs, zs, lw=0.5, color='dodgerblue')
+    ax4.plot(xs, zs, lw=0.5, color='magenta')
     ax4.set_xlabel("X Axis")
     ax4.set_ylabel("Z Axis")
     ax4.set_title("X vs Z")
