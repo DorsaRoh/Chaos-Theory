@@ -6,15 +6,15 @@
 
 <p align="center">
 
-[3D Lorenz Attractor](https://github.com/DorsaRoh/Chaos-Theory/blob/main/3D_lorenzattractor.py)
+[3D Lorenz Attractor](https://github.com/DorsaRoh/Chaos-Theory/blob/main/3D_lorenzattractor.py): 3D representation of the Lorenz Attractor
 
 <img width="800px" src="assets\3d_lorenz.png">
 
-[2D Lorenz Attractor](https://github.com/DorsaRoh/Chaos-Theory/blob/main/2D_lorenzattractor.py)
+[2D Lorenz Attractor](https://github.com/DorsaRoh/Chaos-Theory/blob/main/2D_lorenzattractor.py): 2D representation of the Lorenz Attractor's axes and dimension
 
 <img width="850px" src="assets\2d_lorenz.png">
 
-[Logistic Map](https://github.com/DorsaRoh/Chaos-Theory/blob/main/logisticmap.py)
+[Logistic Map](https://github.com/DorsaRoh/Chaos-Theory/blob/main/logisticmap.py): 2D Representation of Logistic Map
 
 <img width="600px" src="assets\LogisticMap.png">
 </p>
