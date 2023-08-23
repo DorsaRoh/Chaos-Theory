@@ -1,33 +1,8 @@
 import time
-startTime = time.time()
 import numpy as np
 import matplotlib.pyplot as plt
-import base64
-import io
 from scipy.integrate import solve_ivp
 
-from mpl_toolkits.mplot3d import Axes3D
-import matplotlib.tri as mtri
-from scipy.integrate import odeint
-from matplotlib import animation
-from matplotlib.colors import cnames
-from matplotlib import cm
-from scipy import integrate
-import matplotlib.colors as colors
-import matplotlib.cm as cmx
-import matplotlib as mpl
-
-def plt_show(plt, width, dpi=100):
-    bytes = io.BytesIO()
-    plt.savefig(bytes, format='png', dpi=dpi)
-    if hasattr(plt, "close"):
-        plt.close()
-    bytes.seek(0)
-    base64_string = "data:image/png;base64," + \
-        base64.b64encode(bytes.getvalue()).decode("utf-8")
-    return "<img src='" + base64_string + "' width='" + str(width) + "'>"
-
-# bifurcation calculator
 def main(inputs):
     global inv
     global endv
@@ -46,8 +21,8 @@ def main(inputs):
             lims[i+1] = r*lims[i]*(1-lims[i])
         biax.plot([r]*numtoplot, lims[reps-numtoplot:], 'b.', markersize=.02)
     biax.set(xlabel='r', ylabel='X Axis', title='Logistic Map')
-    plot7 = plt_show(plt7, 700)
+    plt.show()
 
-    return {
-        "Image_7": plot7
-    }
+# Calling main function with example inputs
+inputs = {'inv': 2.5, 'endv': 4.0}
+main(inputs)
