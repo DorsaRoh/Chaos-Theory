@@ -1,12 +1,18 @@
 
-# 3D Chaos Theory
+# Chaos Theory
 
-### The computation of 3D chaotic dynamical systems.
+### Graphs and computes systems in Chaos Theory; Lorenz Attractors & Logistic Maps.
 
 
 <p align="center">
+[3D Lorenz Attractor](https://github.com/DorsaRoh/Chaos-Theory/blob/main/3D_lorenzattractor.py)
+
 <img width="800px" src="assets\3d_lorenz.png">
+
+[2D Lorenz Attractor](https://github.com/DorsaRoh/Chaos-Theory/blob/main/2D_lorenzattractor.py)
 <img width="850px" src="assets\XYZPlanes.png">
+
+[Logistic Map](https://github.com/DorsaRoh/Chaos-Theory/blob/main/logisticmap.py)
 <img width="600px" src="assets\LogisticMap.png">
 </p>
 
@@ -37,7 +43,7 @@ pip install -r requirements.txt
 
 ### 3. Usage
 
-Enter your parameters in **parameters.py** file
+Enter your parameters in (parameters.py)[https://github.com/DorsaRoh/Chaos-Theory/blob/main/parameters.py] file
 
 **Lorenz Attractor**
 - sigma (default: 10.0) 
