@@ -46,13 +46,14 @@ pip install -r requirements.txt
 
 ### 3. Usage
 
-Enter your parameters in [parameters.py](https://github.com/DorsaRoh/Chaos-Theory/blob/main/parameters.py) file
+**Enter your parameters in [parameters.py](https://github.com/DorsaRoh/Chaos-Theory/blob/main/parameters.py) file**
 
+Run file
 ```shell
 python run *file name of desired chaotic system*
 ```
 
-ex. 
+For example: 
 ```shell
 cd 3D_lorenzattractor.p
 ```
