@@ -50,10 +50,10 @@ def main(inputs):
     positions2 = odeint(lorenz_deriv, [1.0, 1.0, -1.0], t)
 
     # Create a figure with 3 subplots
-    fig = plt.figure(figsize=[18, 6])
+    fig = plt.figure(figsize=[12, 12])
 
     # First subplot (using odeint)
-    ax1 = fig.add_subplot(131, projection='3d')
+    ax1 = fig.add_subplot(2, 2, 1, projection='3d')
     ax1.set_xlabel('X Axis')
     ax1.set_ylabel('Y Axis')
     ax1.set_zlabel('Z Axis')
@@ -65,7 +65,7 @@ def main(inputs):
     ax1.set_title('Using odeint')
 
     # Second subplot (from the simple method)
-    ax2 = fig.add_subplot(132, projection='3d')
+    ax2 = fig.add_subplot(2, 2, 2, projection='3d')
     dt = 0.01
     diffcoord = 10000
     xs = np.empty(diffcoord + 1)
@@ -77,14 +77,14 @@ def main(inputs):
         xs[i + 1] = xs[i] + (x_coordinate * dt)
         ys[i + 1] = ys[i] + (y_coordinate * dt)
         zs[i + 1] = zs[i] + (z_coordinate * dt)
-    ax2.plot(xs, ys, zs, lw=0.5)
+    ax2.plot(xs, ys, zs, color='dodgerblue', lw=0.5)
     ax2.set_xlabel("X Axis")
     ax2.set_ylabel("Y Axis")
     ax2.set_zlabel("Z Axis")
     ax2.set_title('Classic')
 
     # Third subplot (new code)
-    ax3 = fig.add_subplot(133, projection='3d')
+    ax3 = fig.add_subplot(2, 1, 2, projection='3d')
     def lor(t, X, si, be, rh):
         u, v, w = X
         up = -s*(u - v)
@@ -96,21 +96,24 @@ def main(inputs):
     t_new = np.linspace(0, 100, 10000)
     x, y, z = soln.sol(t_new)
     se = 10
-    cmap = plt.cm.hsv
+    cmap = plt.cm.prism # define colormap for third figure
     for i in range(0, 10000-se, se):
         ax3.plot(x[i:i+se+1], y[i:i+se+1], z[i:i+se+1], color=cmap(i/10000), alpha=0.4)
     ax3.set_xlabel("X Axis")
     ax3.set_ylabel("Y Axis")
     ax3.set_zlabel("Z Axis")
-    ax3.set_title("New Plot")
+    ax3.set_title("Spectral")
+
+    # Adjust spacing between subplots
+    plt.subplots_adjust(hspace=0.05, wspace=0.05)  # hspace adjusts height, wspace adjusts width
 
     plt.tight_layout()
     plt.show()
 
-# Add your inputs
+# Inputs from parameters.py file
 inputs = {
-    's': 10.0,   # Sigma value for Lorenz system
-    'r': 28.0,   # Rho value for Lorenz system
-    'b': 8.0/3   # Beta value for Lorenz system
+    's': sigma,   # Sigma value for Lorenz system
+    'r': rho,   # Rho value for Lorenz system
+    'b': beta   # Beta value for Lorenz system
 }
 main(inputs)
