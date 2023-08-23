@@ -1,3 +1,5 @@
+# Parameters for the chaotic systems. Change them as you wish
+
 # Lorenz Attractor Parameters
 
 sigma = 10.0        # Sigma value for Lorenz system

@@ -26,5 +26,5 @@ def main(inputs):
     plt.show()
 
 # Calling main function with example inputs
-inputs = {'inv': inv, 'endv': env}
+inputs = {'inv': inv, 'endv': endv}
 main(inputs)
