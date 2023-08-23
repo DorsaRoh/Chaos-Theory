@@ -104,8 +104,8 @@ def main(inputs):
     ax3.set_zlabel("Z Axis")
     ax3.set_title("Spectral")
 
-    # Adjust spacing between subplots
-    plt.subplots_adjust(hspace=0.05, wspace=0.05)  # hspace adjusts height, wspace adjusts width
+    # ! Uncomment if you wish to adjust the spacing between subplots
+    # plt.subplots_adjust(hspace=0.05, wspace=0.05)  # hspace adjusts height, wspace adjusts width
 
     plt.tight_layout()
     plt.show()

@@ -4,6 +4,12 @@
 ### The computation of 3D chaotic dynamical systems.
 
 
+<p align="center">
+<img width="800px" src="assets\3d_lorenz.png">
+<img width="850px" src="assets\XYZPlanes.png">
+<img width="600px" src="assets\LogisticMap.png">
+</p>
+
 ## Features:
 - Computes and graphs Lorenz Attractors using values sigma, beta, Rho and time inputted by the user. 
 - Trajectory curve graphs, XY, YZ and XZ axis matplotlib graph visuals.
@@ -13,11 +19,18 @@
 
 ### 1. Clone the repository
 ```shell
-git clone https://github.com/DorsaRoh/https://github.com/DorsaRoh/3D-Chaos-Theory
+git clone https://github.com/DorsaRoh/https://github.com/DorsaRoh/Chaos-Theory
+```
+
+```shell
+cd Chaos-Theory
 ```
 
 ### 2. Install dependencies
-
+```shell
+pip install numpy matplotlib scipy
+```
+or
 ```shell
 pip install -r requirements.txt
 ```
@@ -32,11 +45,5 @@ Enter your parameters in **parameters.py** file
 - beta (default 8.0/3)
 
 **Logistic Map**
-
-
-<p align="center">
-<img width="800px" src="assets\3d_lorenz.png">
-<img width="800px" src="assets\3d_lorenz2.png">
-<img width="850px" src="assets\XYZPlanes.png">
-<img width="600px" src="assets\LogisticMap.png">
-</p>
+- inv (default: 2.4)
+- endv (default: 4.0)
