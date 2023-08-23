@@ -54,5 +54,5 @@ python run *file name of desired chaotic system*
 
 ex. 
 ```shell
-cd 3D_lorenzattractor.py
+cd 3D_lorenzattractor.p
 ```

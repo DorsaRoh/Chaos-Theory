@@ -64,7 +64,26 @@ def main(inputs):
     gradient_line3d(ax1, positions2[:, 0], positions2[:, 1], positions2[:, 2], cmap1, alpha=1, linewidth=1)
     ax1.set_title('Using odeint')
 
-    # Third subplot
+    # Second subplot (from the simple method)
+    ax2 = fig.add_subplot(2, 2, 2, projection='3d')
+    dt = 0.01
+    diffcoord = 10000
+    xs = np.empty(diffcoord + 1)
+    ys = np.empty(diffcoord + 1)
+    zs = np.empty(diffcoord + 1)
+    xs[0], ys[0], zs[0] = (0., 1., 1.05)
+    for i in range(diffcoord):
+        x_coordinate, y_coordinate, z_coordinate = s*(ys[i] - xs[i]), r*xs[i] - ys[i] - xs[i]*zs[i], xs[i]*ys[i] - b*zs[i]
+        xs[i + 1] = xs[i] + (x_coordinate * dt)
+        ys[i + 1] = ys[i] + (y_coordinate * dt)
+        zs[i + 1] = zs[i] + (z_coordinate * dt)
+    ax2.plot(xs, ys, zs, color='dodgerblue', lw=0.5)
+    ax2.set_xlabel("X Axis")
+    ax2.set_ylabel("Y Axis")
+    ax2.set_zlabel("Z Axis")
+    ax2.set_title('Classic')
+
+    # Third subplot (new code)
     ax3 = fig.add_subplot(2, 1, 2, projection='3d')
     def lor(t, X, si, be, rh):
         u, v, w = X
