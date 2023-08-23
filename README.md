@@ -23,7 +23,7 @@ pip install -r requirements.txt
 ```
 
 <p align="center">
-<img width="800px" src="assets\LorenzAttractor.png">
+<img width="800px" src="assets\LorenzAttractors.png">
 <img width="850px" src="assets\XYZPlanes.png">
 <img width="600px" src="assets\LogisticMap.png">
 </p>
