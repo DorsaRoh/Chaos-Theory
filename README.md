@@ -46,13 +46,13 @@ pip install -r requirements.txt
 
 ### 3. Usage
 
-Enter your parameters in (parameters.py)[https://github.com/DorsaRoh/Chaos-Theory/blob/main/parameters.py] file
+Enter your parameters in [parameters.py](https://github.com/DorsaRoh/Chaos-Theory/blob/main/parameters.py) file
 
-**Lorenz Attractor**
-- sigma (default: 10.0) 
-- rho (default: 28.0)
-- beta (default 8.0/3)
+```shell
+python run *file name of desired chaotic system*
+```
 
-**Logistic Map**
-- inv (default: 2.4)
-- endv (default: 4.0)
+ex. 
+```shell
+cd 3D_lorenzattractor.py
+```
