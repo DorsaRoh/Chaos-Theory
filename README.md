@@ -36,6 +36,7 @@ Enter your parameters in **parameters.py** file
 
 <p align="center">
 <img width="800px" src="assets\3d_lorenz.png">
+<img width="800px" src="assets\3d_lorenz2.png">
 <img width="850px" src="assets\XYZPlanes.png">
 <img width="600px" src="assets\LogisticMap.png">
 </p>
