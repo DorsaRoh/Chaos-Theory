@@ -28,28 +28,36 @@ def main(inputs):
         ys[i + 1] = ys[i] + (y_coordinate * dt)
         zs[i + 1] = zs[i] + (z_coordinate * dt)
 
-    fig = plt.figure(figsize=(15, 5))  # Adjusting the size for horizontal alignment
+    fig = plt.figure(figsize=(10, 7))
 
-    # X vs Y plot
-    ax1 = fig.add_subplot(1, 3, 1)  # Changed to 1 row and 3 columns
-    ax1.plot(xs, ys, lw=0.5, color='springgreen')
+    # 3D Plot
+    ax1 = fig.add_subplot(2, 2, 1, projection='3d')
+    ax1.plot(xs, ys, zs, lw=0.5, color='red')
     ax1.set_xlabel("X Axis")
     ax1.set_ylabel("Y Axis")
-    ax1.set_title("X vs Y")
+    ax1.set_zlabel("Z Axis")
+    ax1.set_title("3D Plot")
+
+    # X vs Y plot
+    ax2 = fig.add_subplot(2, 2, 2)
+    ax2.plot(xs, ys, lw=0.5, color='coral')
+    ax2.set_xlabel("X Axis")
+    ax2.set_ylabel("Y Axis")
+    ax2.set_title("X vs Y")
 
     # Y vs Z plot
-    ax2 = fig.add_subplot(1, 3, 2)  # Changed to 1 row and 3 columns
-    ax2.plot(ys, zs, lw=0.5, color='coral')
-    ax2.set_xlabel("Y Axis")
-    ax2.set_ylabel("Z Axis")
-    ax2.set_title("Y vs Z")
+    ax3 = fig.add_subplot(2, 2, 3)
+    ax3.plot(ys, zs, lw=0.5, color='springgreen')
+    ax3.set_xlabel("Y Axis")
+    ax3.set_ylabel("Z Axis")
+    ax3.set_title("Y vs Z")
 
     # X vs Z plot
-    ax3 = fig.add_subplot(1, 3, 3)  # Changed to 1 row and 3 columns
-    ax3.plot(xs, zs, lw=0.5, color='magenta')
-    ax3.set_xlabel("X Axis")
-    ax3.set_ylabel("Z Axis")
-    ax3.set_title("X vs Z")
+    ax4 = fig.add_subplot(2, 2, 4)
+    ax4.plot(xs, zs, lw=0.5, color='magenta')
+    ax4.set_xlabel("X Axis")
+    ax4.set_ylabel("Z Axis")
+    ax4.set_title("X vs Z")
 
     plt.tight_layout()
     plt.show()
