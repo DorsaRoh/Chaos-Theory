@@ -50,10 +50,11 @@ def main(inputs):
     positions2 = odeint(lorenz_deriv, [1.0, 1.0, -1.0], t)
 
     # Create a figure with 3 subplots
-    fig = plt.figure(figsize=[12, 12])
+    fig = plt.figure(figsize=[18, 6])
+    fig.suptitle("3D Lorenz Attractor", fontsize=16)
 
     # First subplot (using odeint)
-    ax1 = fig.add_subplot(2, 2, 1, projection='3d')
+    ax1 = fig.add_subplot(131, projection='3d')
     ax1.set_xlabel('X Axis')
     ax1.set_ylabel('Y Axis')
     ax1.set_zlabel('Z Axis')
@@ -62,10 +63,9 @@ def main(inputs):
 
     cmap1 = plt.cm.spring
     gradient_line3d(ax1, positions2[:, 0], positions2[:, 1], positions2[:, 2], cmap1, alpha=1, linewidth=1)
-    ax1.set_title('Using odeint')
 
     # Second subplot (from the simple method)
-    ax2 = fig.add_subplot(2, 2, 2, projection='3d')
+    ax2 = fig.add_subplot(132, projection='3d')
     dt = 0.01
     diffcoord = 10000
     xs = np.empty(diffcoord + 1)
@@ -81,10 +81,9 @@ def main(inputs):
     ax2.set_xlabel("X Axis")
     ax2.set_ylabel("Y Axis")
     ax2.set_zlabel("Z Axis")
-    ax2.set_title('Classic')
 
     # Third subplot (new code)
-    ax3 = fig.add_subplot(2, 1, 2, projection='3d')
+    ax3 = fig.add_subplot(133, projection='3d')
     def lor(t, X, si, be, rh):
         u, v, w = X
         up = -s*(u - v)
@@ -102,7 +101,6 @@ def main(inputs):
     ax3.set_xlabel("X Axis")
     ax3.set_ylabel("Y Axis")
     ax3.set_zlabel("Z Axis")
-    ax3.set_title("Spectral")
 
     # ! Uncomment if you wish to adjust the spacing between subplots
     # plt.subplots_adjust(hspace=0.05, wspace=0.05)  # hspace adjusts height, wspace adjusts width
