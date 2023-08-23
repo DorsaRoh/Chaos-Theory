@@ -3,6 +3,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 from scipy.integrate import solve_ivp
 
+from parameters import inv, endv
+
 def main(inputs):
     global inv
     global endv
@@ -24,5 +26,5 @@ def main(inputs):
     plt.show()
 
 # Calling main function with example inputs
-inputs = {'inv': 2.5, 'endv': 4.0}
+inputs = {'inv': inv, 'endv': env}
 main(inputs)

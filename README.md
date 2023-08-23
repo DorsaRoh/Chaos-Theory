@@ -22,6 +22,18 @@ git clone https://github.com/DorsaRoh/https://github.com/DorsaRoh/3D-Chaos-Theor
 pip install -r requirements.txt
 ```
 
+### 3. Usage
+
+Enter your parameters in **parameters.py** file
+
+**Lorenz Attractor**
+- sigma (default: 10.0) 
+- rho (default: 28.0)
+- beta (default 8.0/3)
+
+**Logistic Map**
+
+
 <p align="center">
 <img width="800px" src="assets\LorenzAttractors.jpg">
 <img width="850px" src="assets\XYZPlanes.png">
