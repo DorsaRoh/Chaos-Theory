@@ -11,9 +11,11 @@
 <img width="800px" src="assets\3d_lorenz.png">
 
 [2D Lorenz Attractor](https://github.com/DorsaRoh/Chaos-Theory/blob/main/2D_lorenzattractor.py)
-<img width="850px" src="assets\XYZPlanes.png">
+
+<img width="850px" src="assets\2d_lorenz.png">
 
 [Logistic Map](https://github.com/DorsaRoh/Chaos-Theory/blob/main/logisticmap.py)
+
 <img width="600px" src="assets\LogisticMap.png">
 </p>
 
